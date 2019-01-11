@@ -2,47 +2,48 @@
 downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
-configure_sudoers: yes
-configure_terminal: yes
-configure_osx: yes
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/aSapien/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_version: ansible
+dotfiles_repo_local_destination: ~/projects/dotfiles_ansible
 dotfiles_files:
-  - .bash_profile
   - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
+  - .gitconfig
+  - .zshrc-variables
+  - .zshrc-aliases
+  - .zshrc-functions
+  - .zshrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
+  - htop-osx
+  - zsh
+  - zsh-completions
+  - zsh-syntax-highlighting
   - git
+  - diff-so-fancy
+  - autojump
+  - fzf
+  - jq
   - go
   - gpg
   - hub
   - httpie
-  - iperf
-  - libevent
   - sqlite
-  - mcrypt
-  - nmap
+  - mcrypt        # crypto library
+  - nmap          # port scanning, security auditing https://nmap.org
   - node
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
+  - ssh-copy-id   # copy public key to remote machine's authorized_keys
+  - readline      # Better terminal editing
   - openssl
-  - pv
+  - tree
   - wget
-  - wrk
+  - wrk           # http benchmarking https://github.com/wg/wrk
 
 homebrew_taps:
   - homebrew/core
@@ -50,21 +51,31 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - notion
   - docker
-  - dropbox
   - firefox
   - google-chrome
-  - handbrake
-  - licecap
-  - limechat
-  - macvim
   - sequel-pro
-  - skitch
   - slack
+  - telegram
   - sublime-text
-  - transmit
+  - visual-studio-code
   - vagrant
+  - dash
+  - flour
+  - beyond-compare
+  - intellij-idea
+  - java8
+  - keybase
+  - mailbutler
+  - spotify
+  - the-unarchiver
+  - vlc
+  - spectacle
+  - ngrok
+  - macdown
+  - google-cloud-sdk
+  - wireshark
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
