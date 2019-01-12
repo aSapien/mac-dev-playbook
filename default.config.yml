@@ -12,6 +12,7 @@ dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .gitignore
   - .gitconfig
+  - .spectacleconf
   - .zshrc-variables
   - .zshrc-aliases
   - .zshrc-functions
@@ -19,6 +20,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - mas           # Mac App Store - CLI
   - htop-osx
   - zsh
   - zsh-completions
@@ -50,6 +52,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - bitwarden
   - notion
   - docker
   - firefox
@@ -68,6 +71,7 @@ homebrew_cask_apps:
   - keybase
   - mailbutler
   - spotify
+  - stremio
   - the-unarchiver
   - vlc
   - spectacle
@@ -77,7 +81,9 @@ homebrew_cask_apps:
   - wireshark
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 497799835,  name: "Xcode" }
+
 mas_email: ""
 mas_password: ""
 
