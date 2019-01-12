@@ -8,8 +8,7 @@ configure_osx: no
 
 dotfiles_repo: https://github.com/aSapien/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_version: ansible
-dotfiles_repo_local_destination: ~/projects/dotfiles_ansible
+dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .gitignore
   - .gitconfig
