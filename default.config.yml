@@ -26,6 +26,8 @@ homebrew_installed_packages:
   - zsh-completions
   - zsh-syntax-highlighting
   - git
+  - bazel
+  - maven
   - diff-so-fancy
   - autojump
   - fzf
@@ -49,10 +51,12 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - caskroom/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - bitwarden
+  - alfred
   - notion
   - docker
   - firefox
@@ -63,6 +67,8 @@ homebrew_cask_apps:
   - sublime-text
   - visual-studio-code
   - vagrant
+  - parallels
+  - balenaetcher
   - dash
   - flour
   - beyond-compare
