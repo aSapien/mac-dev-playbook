@@ -46,6 +46,8 @@ homebrew_installed_packages:
   - tree
   - wget
   - wrk           # http benchmarking https://github.com/wg/wrk
+  - tldr
+  - openconnect   # Open client for Cisco AnyConnect VPN
 
 homebrew_taps:
   - homebrew/core
