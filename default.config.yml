@@ -12,7 +12,6 @@ dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .gitignore
   - .gitconfig
-  - .spectacleconf
   - .zshrc-variables
   - .zshrc-aliases
   - .zshrc-functions
