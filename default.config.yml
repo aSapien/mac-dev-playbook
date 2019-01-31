@@ -87,6 +87,8 @@ homebrew_cask_apps:
   - macdown
   - google-cloud-sdk
   - wireshark
+  - amazon-photos
+  - haptickey
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
