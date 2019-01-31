@@ -90,6 +90,8 @@ homebrew_cask_apps:
   - amazon-photos
   - haptickey
   - tripmode
+  - cleanmymac
+  - flux
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
