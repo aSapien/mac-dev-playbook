@@ -6,7 +6,7 @@ configure_sudoers: no
 configure_terminal: no
 configure_osx: no
 
-dotfiles_repo: https://github.com/aSapien/dotfiles.git
+dotfiles_repo: git@github.com:aSapien/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
