@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - wrk           # http benchmarking https://github.com/wg/wrk
   - tldr
   - openconnect   # Open client for Cisco AnyConnect VPN
+  - kafka
 
 homebrew_taps:
   - homebrew/core
@@ -93,6 +94,7 @@ homebrew_cask_apps:
   - tripmode
   - cleanmymac
   - flux
+  - sloth
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
