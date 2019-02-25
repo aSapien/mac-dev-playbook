@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - mcrypt        # crypto library
   - nmap          # port scanning, security auditing https://nmap.org
   - node
+  - scala
   - nvm
   - ssh-copy-id   # copy public key to remote machine's authorized_keys
   - readline      # Better terminal editing
@@ -57,6 +58,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - paw
   - iterm2
   - bitwarden
   - alfred
