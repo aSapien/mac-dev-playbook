@@ -12,10 +12,7 @@ dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .gitignore
   - .gitconfig
-  - .zshrc-variables
-  - .zshrc-aliases
-  - .zshrc-functions
-  - .zshrc
+  - .fishconfig.fish
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
