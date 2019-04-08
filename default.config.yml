@@ -12,7 +12,7 @@ dotfiles_repo_local_destination: ~/projects/dotfiles
 dotfiles_files:
   - .gitignore
   - .gitconfig
-  - .fishconfig.fish
+  - .localconfig.fish
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
