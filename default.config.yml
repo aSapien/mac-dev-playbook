@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - nmap          # port scanning, security auditing https://nmap.org
   - node
   - scala
+  - ammonite-repl
   - nvm
   - ssh-copy-id   # copy public key to remote machine's authorized_keys
   - readline      # Better terminal editing
