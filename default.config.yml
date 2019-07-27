@@ -37,7 +37,8 @@ homebrew_installed_packages:
   - nmap          # port scanning, security auditing https://nmap.org
   - node
   - scala
-  - ammonite-repl
+  - ammonite-repl # Scala REPL
+  - stack         # Haskell Stack
   - nvm
   - ssh-copy-id   # copy public key to remote machine's authorized_keys
   - readline      # Better terminal editing
@@ -48,6 +49,7 @@ homebrew_installed_packages:
   - tldr
   - openconnect   # Open client for Cisco AnyConnect VPN
   - kafka
+  - fish          # Fish shell
 
 homebrew_taps:
   - homebrew/core
@@ -63,6 +65,7 @@ homebrew_cask_apps:
   - notion
   - docker
   - firefox
+  - brave-browser
   - google-chrome
   - sequel-pro
   - slack
@@ -91,7 +94,6 @@ homebrew_cask_apps:
   - wireshark
   - amazon-photos
   - haptickey
-  - tripmode
   - cleanmymac
   - flux
   - sloth
