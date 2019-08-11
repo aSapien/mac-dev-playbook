@@ -59,6 +59,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - paw
+  - burp-suite
   - iterm2
   - bitwarden
   - alfred
