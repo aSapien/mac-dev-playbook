@@ -43,16 +43,11 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
-  - amazon-photos
-  - balenaetcher
-  - beyond-compare
   - bitwarden
   - brave-browser
   - burp-suite
   - dash
   - docker
-  - firefox
-  - flour
   - flux
   - google-cloud-sdk
   - intellij-idea
@@ -60,7 +55,6 @@ homebrew_cask_apps:
   - java
   - karabiner-elements
   - kindle
-  - macdown
   - ngrok
   - nomachine
   - notion
@@ -68,9 +62,7 @@ homebrew_cask_apps:
   - odrive
   - parallels
   - paw
-  - sequel-pro
   - slack
-  - spectacle
   - spotify
   - steam
   - stremio
